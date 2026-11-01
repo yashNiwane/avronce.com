@@ -46,14 +46,14 @@ export function Navbar() {
           
           {/* LEFT: LOGO FIRST */}
           <div className="flex items-center gap-6 lg:gap-8 min-w-0">
-            <Link href="/" className="flex items-center gap-2 group focus:outline-none shrink-0" aria-label="Avronce Home">
+            <div className="flex items-center shrink-0">
               <div className="hidden sm:block">
                 <Logo variant="combined" size="md" />
               </div>
               <div className="block sm:hidden">
                 <Logo variant="combined" size="sm" />
               </div>
-            </Link>
+            </div>
 
             {/* Desktop Navigation Links */}
             <nav className="hidden lg:flex items-center gap-6">
